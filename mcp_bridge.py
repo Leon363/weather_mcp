@@ -4,7 +4,7 @@ def mcp_tool_to_ollama(tool):
         'function': {
             'name': tool.name,
             'description': tool.description,
-            'parameters': tool.input_schema,
+            'parameters': tool.inputSchema,
         }
     }
 
